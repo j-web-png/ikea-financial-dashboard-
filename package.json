@@ -1,7 +1,7 @@
 {
   "name": "ikea-financial-dashboard",
   "version": "1.0.0",
-  "description": "Student project dashboard analyzing Inter IKEA Group operating income compression between FY25 and FY26.",
+  "description": "Student project dashboard analyzing Inter IKEA Group operating income compression between FY25 and FY26 in EUR Billions.",
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
