@@ -25,7 +25,7 @@
 
     <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-6 py-8 space-y-8">
-        <!-- Key Metrics Cards -->
+        <!-- Key Metrics Cards (Updated to Billions) -->
         <section class="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
                 <p class="text-xs uppercase tracking-wider text-slate-500 font-semibold">Total Revenue</p>
@@ -121,10 +121,10 @@
         </div>
     </footer>
 
-    <!-- Load Dataset and Initialize Charts -->
+    <!-- Load Dataset and Initialize Charts (Linked to Billions Data) -->
     <script src="data.js"></script>
     <script>
-        // P&L Comparison Bar Chart using external data.js source in Billions
+        // P&L Comparison Bar Chart in Billions (€B)
         const ctxPL = document.getElementById('plComparisonChart').getContext('2d');
         new Chart(ctxPL, {
             type: 'bar',
@@ -173,7 +173,7 @@
             }
         });
 
-        // EBIT Bridge / Waterfall Chart in Billions
+        // EBIT Bridge / Waterfall Chart in Billions (€B)
         const ctxBridge = document.getElementById('ebitWaterfallChart').getContext('2d');
         new Chart(ctxBridge, {
             type: 'bar',
