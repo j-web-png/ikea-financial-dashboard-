@@ -1,7 +1,7 @@
 /**
  * Inter IKEA Group Cleaned Financial Dataset (FY25 vs. FY26)
  * Source: Inter IKEA Holding B.V. Annual Report FY26
- * Units: EUR Millions (€M) unless otherwise specified.
+ * Units: EUR Billions (€B)
  */
 
 window.ikeaFinancialData = {
@@ -12,46 +12,46 @@ window.ikeaFinancialData = {
             fy26: "1 September 2025 – 31 August 2026"
         },
         sampleSizeN: 2,
-        notes: "Excludes Ingka Group retail operations. Standardized to account for Dutch GAAP line items."
+        notes: "Excludes Ingka Group retail operations. Figures reported in EUR Billions."
     },
     metrics: [
         {
             category: "Total Operating Income (Revenue)",
-            fy25: 26306,
-            fy26: 25864,
-            absoluteChange: -442,
+            fy25: 26.30,
+            fy26: 25.86,
+            absoluteChange: -0.44,
             percentChange: -1.68,
             description: "Wholesale goods sold to franchisees plus earned franchise fees."
         },
         {
             category: "Cost of Raw Materials & Consumables",
-            fy25: 21328,
-            fy26: 20657,
-            absoluteChange: -671,
+            fy25: 21.33,
+            fy26: 20.66,
+            absoluteChange: -0.67,
             percentChange: -3.15,
             description: "Direct procurement, manufacturing input, and supply-chain logistics costs."
         },
         {
             category: "Other Operating Expenses & Labor",
-            fy25: 3253,
-            fy26: 3748,
-            absoluteChange: 495,
+            fy25: 3.25,
+            fy26: 3.75,
+            absoluteChange: 0.50,
             percentChange: 15.22,
             description: "Includes wage inflation, digital system investments, and one-off organizational restructuring costs."
         },
         {
             category: "Operating Profit (EBIT)",
-            fy25: 1725,
-            fy26: 1459,
-            absoluteChange: -266,
+            fy25: 1.73,
+            fy26: 1.46,
+            absoluteChange: -0.27,
             percentChange: -15.42,
             description: "Operating result before financial items and tax."
         },
         {
             category: "Net Profit",
-            fy25: 1496,
-            fy26: 1399,
-            absoluteChange: -97,
+            fy25: 1.50,
+            fy26: 1.40,
+            absoluteChange: -0.10,
             percentChange: -6.48,
             description: "Bottom-line profit cushioned by net financial income and currency derivative gains."
         }
@@ -69,10 +69,10 @@ window.ikeaFinancialData = {
         }
     },
     waterfallBridge: [
-        { label: "FY25 EBIT", value: 1725, type: "total" },
-        { label: "Revenue Volume Impact", value: -442, type: "negative" },
-        { label: "Material Cost Savings", value: 671, type: "positive" },
-        { label: "OpEx & Restructuring Headwinds", value: -495, type: "negative" },
-        { label: "FY26 EBIT", value: 1459, type: "total" }
+        { label: "FY25 EBIT", value: 1.73, type: "total" },
+        { label: "Revenue Impact", value: -0.44, type: "negative" },
+        { label: "Material Savings", value: 0.67, type: "positive" },
+        { label: "OpEx & Restructuring Headwinds", value: -0.50, type: "negative" },
+        { label: "FY26 EBIT", value: 1.46, type: "total" }
     ]
 };
